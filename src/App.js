@@ -10,8 +10,8 @@ function App() {
       <NavBar/>
       <Banner/>
       <Rowpost url ={originals} title="Favorites"/>
-      <Rowpost url ={horror} title="Horror"/>
-      <Rowpost url ={comedy} title="Comedy"/>
+      <Rowpost url ={horror} title="Comedy"/>
+      <Rowpost url ={comedy} title="Horror"/>
       <Rowpost url ={romance} title="Romance"/>
       <Rowpost url ={documentaries} title="Documentaries"/>
       <Rowpost url={action} title="Action" isSmall/>
