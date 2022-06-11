@@ -1,4 +1,4 @@
-import React,{useEffect,useLayoutEffect,useState} from 'react'
+import React,{useEffect,useState} from 'react'
 import Youtube from 'react-youtube'
 import './Rowpost.css'
 import {imageUrl,API_KEY} from '../../Constants/Constants'
