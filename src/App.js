@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import Rowpost from './Components/Rowpost/Rowpost'
-import {action,originals,horror,comedy,romance,documentaries} from './urls'
+import {action,originals,horror,comedy,documentaries} from './urls'
 import './App.css'
 function App() {
   return (
