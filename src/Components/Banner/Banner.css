@@ -2,6 +2,10 @@
     background-size: cover;
     height:448px;
     color: white;
+    border: 3px solid white;
+    margin-top: 20px;
+    border-radius: 35px;
+    box-shadow: inset 0 3px 6px rgb(255, 255, 255), 0 4px 6px rgb(255, 255, 255);
 }
 
 .content{
@@ -14,26 +18,7 @@
     font-size: 3rem;
     font-weight: 800;
     padding-top:0.3rem;
-}
-
-.button{
-    color:white;
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: 5px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color:rgba(51,51,51,.5);
-    cursor: pointer;
-    margin-right:1rem;
-}
-
-.button:hover{
-    color: black;
-    background-color: #e6e6e6;
+    margin-bottom: 15px;
 }
 
 .description{
@@ -51,3 +36,60 @@
 
 
 }
+
+.play-btn{
+    height: 13px !important;
+    width: 18px !important;
+}
+
+.play_btn,.my_list,.favourite_btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    cursor: pointer;
+  }
+  
+.play_btn {
+    background: rgb(69, 218, 79);
+    box-shadow: 0 0 25px rgb(69, 218, 79);
+}
+
+.favourite_btn {
+    background: rgb(205, 57, 136);
+    box-shadow: 0 0 25px rgb(205, 57, 136);
+    margin-left: 15px
+}
+
+.my_list {
+    background: rgb(223, 197, 79);
+    box-shadow: 0 0 25px rgb(223, 197, 79);
+    margin-left: 15px
+  }
+  
+  .play_btn:hover {
+    box-shadow: 0 0 5px rgb(69, 218, 79),
+                0 0 25px rgb(69, 218, 79),
+                0 0 50px rgb(69, 218, 79),
+                0 0 100px rgb(69, 218, 79);
+  }
+
+  .favourite_btn:hover {
+    box-shadow: 0 0 5px rgb(205, 57, 136),
+                0 0 25px rgb(205, 57, 136),
+                0 0 50px rgb(205, 57, 136),
+                0 0 100px rgb(205, 57, 136);
+  }
+
+  .my_list:hover {
+    box-shadow: 0 0 5px rgb(223, 197, 79),
+                0 0 25px rgb(223, 197, 79),
+                0 0 50px rgb(223, 197, 79),
+                0 0 100px rgb(223, 197, 79);
+  }  

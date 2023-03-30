@@ -23,3 +23,7 @@
     max-height: 100px;
     max-width: 100;
 }
+
+.pad-sec{
+    margin-top: 50px !important;
+}
